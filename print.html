@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket BOOKING</title>
+    <link rel="Stylesheet" href="print.css">
+</head>
+<body>
+    <form action="">
+      <h1>
+            Ticket Booking Form
+        </h1>
+        <h2>Contact Information</h2>
+        <p>First Name: <input type="text" name="fname" required></p>
+        <p>Middle Name: <input type="text" name="mname"></p>
+        <p>Sur Name: ,<input type="text" name="Sname" required></p>
+        <p>Age: <input type="number" required></p>
+        <p>DOB:<input type="date"></p>
+       <fieldset class="s">
+            <legend>Gender</legend>
+        Male<input type="radio" name="Gender" required>
+        Female<input type="radio" name="Gender" required>
+    </fieldset>
+    <br>
+        <p>
+            Contact No: <input type="number" name="contactNo" required></p>
+            <p>Email<input type="email"></p>
+            <p>Address: <textarea name="Adress" id="Adress" cols="30" rows="10" Required></textarea></p>
+                <p>
+                    Pincode: <input type="number" required>
+                </p>
+                <br>
+                <fieldset>
+                <Legend class="spec2">
+                        Card Details
+                    </Legend>
+                    <div>
+                        <p>
+                            <p>
+                                Card: 
+                                Credit Card<input type="radio" name="card_type">
+                                Debit Card<input type="radio" name="card_type">
+                            </p>
+                            Card type:
+                            <select name="Card Type" id=Card type>
+                                <option type="">--Select a Card Type--</option>
+                                <option value="Master Card">Mastero</option>
+                                <option value="Visa">Visa</option>
+                                <option value="HDFC bank">HDFC</option>
+                            </select>
+                        </p>
+                     <p>   Card NO: <input type="number" number="Card_number" required placeholder="Enter Card Number">
+                    </p>
+                   <p> Card Holder Name <input type="text" name="Card_holder_name" required placeholder="Enter Card Holder Name"></p>
+                   <p>
+                       Expiry date: <input type="date" name="expiration_date" required placeholder="Enter date"></p>
+
+                   </p>
+                   <p>
+                       CVV: <input type="password" placeholder="Enter CVV">
+                   </p>
+                   <p class="spec3">
+                       <input type="submit" value="Book Now">&nbsp;&nbsp;
+                       <input type="reset" value="Reset Now">
+                   </p>
+                </div>
+                   
+
+                </fieldset>
+
+        
+
+    </form>
+</body>
+</html>
